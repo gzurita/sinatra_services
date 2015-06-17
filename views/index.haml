@@ -1,10 +1,12 @@
 !!!
 %html
   %head
-    %title This is the Title in a title tag within the head tag
+    %title Orders
     %script{:type => "text/javascript",
         :src  => "jquery-2.1.4.js"}
   %body
-    %h1 This is a heading within an h1 tag
-    %p
-      This is text in a paragraph. Notice how we do not close the ta
+    %h1 List of Orders
+    %table{:border => 1}
+      %tbody
+        %tr
+          %td
